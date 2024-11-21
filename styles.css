@@ -1,0 +1,167 @@
+
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #0f1111;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-count, .wishlist-count {
+    margin: 0 10px;
+}
+
+
+main {
+    display: flex;
+    padding: 10px;
+}
+
+
+.nav-left {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5rem;
+}
+
+.nav-logo img {
+    width: 100px;
+}
+.nav-logo:hover {
+    outline: 1px solid white;
+}
+
+.location {
+ height: 100%;
+    font-size: .7rem;
+    padding: .5rem 1rem;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+.location-icon i {
+    margin-right: 5px;
+}
+
+
+.nav-center {
+ height: 40px;
+    display: flex;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.search-dropdown {
+width: 5rem;
+    font-size: 1rem;
+    background-color: rgb(210, 208, 208);
+    padding: .5rem;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.search-dropdown:focus {
+    outline: none;
+}
+.search-box {
+font-size: 1rem;
+    flex-grow: 1;
+    padding: .5rem;
+}
+.search-box:focus {
+    outline: none;
+}
+.search-icon {
+ height: 2.5%;
+    background-color: rgba(255, 203, 105, 0.849);
+    border-radius: 0 5px 5px 0;
+    padding: .7rem .5rem;
+    outline: none;
+}
+
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(center, minmax(200px, 1fr));
+    gap: 20px;
+    flex: 3;
+}
+
+
+.item-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-card img {
+    width: 100%;
+    height: center;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #e67e22;
+    margin: 10px 0;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #28416c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #1f2d4c;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.add-to-wishlist {
+    background-color: #007bff;
+}
+.nav-logo {
+    background-color: #0f1111;
+}
+
+.add-to-wishlist:hover {
+    background-color: #0056b3;
+}
